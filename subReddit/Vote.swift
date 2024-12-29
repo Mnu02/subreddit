@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Vote: Codable {
+    let id: String?
+    let userId: String
+    let postId: String
+    let value: Int
+}
